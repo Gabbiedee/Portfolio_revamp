@@ -1,0 +1,40 @@
+.navbar{
+    background: #F1BB6A;
+    /* width: 100vw; */
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+
+}
+
+.navbrand{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.navlinks li{
+    font-size: .9rem;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.socials ul{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.socials li{
+    font-size: .9rem;
+    list-style: none;
+    padding: 0 15px;
+}
+

@@ -1,0 +1,26 @@
+.projects{
+    margin: 20px 0 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newprojects {
+    width: 25%;
+    height: 300px;;
+    background-color: white;
+    text-align: center;
+    font-size: .7rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+
+.newprojects li{
+    list-style: none;
+    margin-top: 20px;
+    color: black;
+}

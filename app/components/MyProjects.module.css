@@ -1,0 +1,25 @@
+.newprojects{
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newprojects div{
+    width: 360px;
+    height: 70%;
+    background-color: white;
+    text-align: center;
+    font-size: .7rem;
+    border-radius: 7px;
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+
+.newprojects li{
+    list-style: none;
+    margin-top: 20px;
+    color: black;
+}

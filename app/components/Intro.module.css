@@ -1,0 +1,22 @@
+.hero1{
+    /* background-image: repeating-linear-gradient(to right, black, rgb(53, 52, 52) 1%); */
+    background-color: #212a31;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:  #d3d9d4;
+    text-align: center;
+}
+.profileText h1{
+    margin-bottom: 10px;
+}
+.profileText{
+   width: 40%;
+   line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.profileImage{
+    border-radius: 50%;
+}

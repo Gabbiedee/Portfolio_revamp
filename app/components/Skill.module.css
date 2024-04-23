@@ -1,0 +1,32 @@
+
+@keyframes colorChange {
+    0%   {color: Maroon;}
+    25%  {color: #00008B;}
+    50%  {color:#800080}
+    100% {color: black;}
+  }
+
+.skills{
+    text-align: center;
+    padding: 40px;
+}
+.skills h1{
+    margin: 10px 0 30px ;
+    color: black;
+}
+.skills ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills li{
+    list-style: none;
+    padding: 0 80px;
+    line-height: 1.6;
+    font-weight: bolder;
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}

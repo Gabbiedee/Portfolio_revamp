@@ -1,26 +1,47 @@
-
 @keyframes colorChange {
-    0%   {color: Maroon;}
-    25%  {color: #00008B;}
-    50%  {color:#800080}
-    100% {color: black;}
+  0% {
+    color: Maroon;
   }
-
-.skills{
-    text-align: center;
-    padding: 40px;
-}
-.skills h1{
-    margin: 10px 0 30px ;
+  25% {
+    color: #00008b;
+  }
+  50% {
+    color: #800080;
+  }
+  100% {
     color: black;
-}
-.skills ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
 }
 
-.skills li{
+.skills {
+  text-align: center;
+  padding: 40px;
+}
+.skills h1 {
+  margin: 10px 0 30px;
+  color: black;
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills li {
+  list-style: none;
+  padding: 0 80px;
+  line-height: 1.6;
+  font-weight: bolder;
+  animation-name: colorChange;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+/* @MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .skills ul {
+    display: block;
+  }
+  .skills li {
     list-style: none;
     padding: 0 80px;
     line-height: 1.6;
@@ -28,5 +49,17 @@
     animation-name: colorChange;
     animation-duration: 6s;
     animation-iteration-count: infinite;
+  }
+}
 
+@media screen and (max-width: 1088px) {
+  .skills li {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .skills li {
+    padding: 0 20px;
+  }
 }

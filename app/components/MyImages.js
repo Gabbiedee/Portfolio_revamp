@@ -2,11 +2,13 @@ import Image from "next/image";
 
 const MyImages = ({ projectImgs }) => {
   return (
-    <Image src={projectImgs}
+    <Image 
+    src={projectImgs}
     alt="Picture of the author"
-    width={360}
-    height={200}
-    quality={100}/>
+    width={0}
+    height={0}
+    sizes="100vw"
+    style={{width: '100%', height: '60%'}}/>
   )
 }
 

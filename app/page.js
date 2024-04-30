@@ -86,9 +86,7 @@ export default function Home() {
   },
   ]
 
-  const ClickButton = ()=>{
-    console.log("Hello")
-  }
+  
 
   return (
     <div className={styles.main}>

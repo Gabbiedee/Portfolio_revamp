@@ -13,7 +13,6 @@ const Navbar = () => {
             <ul className={styles.navlinks}>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/Projects">Projects</Link></li>
-                <li><Link href="/Resume">Resume</Link></li>
             </ul>
     
         </div>

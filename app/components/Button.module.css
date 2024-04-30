@@ -1,11 +1,17 @@
-.btn{
-    padding:10px 15px;
-    margin: 20px 0;
-    background-color:  #212a31;
-    border: none;
-    border-radius: 20px;
-    color: white;
-    text-align: center;
-    box-shadow: 2px 2px 2px #d3d9d4;
-    cursor: pointer;
+.btn {
+  padding: 10px 15px;
+  margin: 20px 0;
+  background-color: hsl(206, 20%, 16%);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 2px 2px 2px #d3d9d4;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d3d9d4;
+  color: hsl(206, 20%, 16%);
+  box-shadow: 2px 2px 2px hsl(206, 20%, 16%);
 }

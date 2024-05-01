@@ -4,9 +4,10 @@ const Skill = ({ skills }) => {
     <div className={styles.skills}>
       <h1>My Skills</h1>
       <ul>
-        {skills.map((skill) => (
-          <div className={styles.skillSet}>
-            <h3>{skill.Icon}</h3>
+        {skills.map((skill, index) => (
+          <div key={index} className={styles.skillSet} 
+          >
+            <h3 >{skill.Icon}</h3>
             <li>{skill.Technology}</li>
           </div>
         ))}

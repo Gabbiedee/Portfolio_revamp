@@ -15,7 +15,7 @@ const Intro = () => {
           solutions. With an emphasis on scalable and well- documented code, I
           look forward to working collaboratively on projects in an
           organisation..</p>
-        <Button children={<Link href="/Projects">My Projects</Link>}/>
+        <Button><Link href="/Projects">My Projects</Link></Button>
         </div>
         <Image className={styles.profileImage}
         src="/profile.JPG"

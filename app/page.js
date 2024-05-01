@@ -92,7 +92,7 @@ export default function Home() {
     <div className={styles.main}>
       <Intro />
       <Skill skills={skills} />
-      <MyProjects projects={projects}/>
+      <MyProjects key={projects.id} projects={projects}/>
     </div>
   )
 

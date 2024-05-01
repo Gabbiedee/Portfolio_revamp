@@ -6,7 +6,8 @@ const MyProjects = ({ projects }) => {
       {projects
         .filter((project) => project.id < 4)
         .map((filteredProject) => (
-          <div>
+          <div key={filteredProject.id}>
+            
             {filteredProject.projectImg}
             <li>{filteredProject.projectName}</li>
             <li>{filteredProject.projectBrief}</li>
